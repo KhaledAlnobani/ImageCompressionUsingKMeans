@@ -33,7 +33,7 @@ class KMeans:
 
     def _compute_closet_centroids(self, X, centroid):
         n = X.shape[0]
-        ind = np.zeros(n, dtype=int)  # Initialize with int instead of float
+        ind = np.zeros(n, dtype=int) 
 
         for i in range(n):
             dist = []
